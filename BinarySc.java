@@ -1,4 +1,3 @@
-import java.util.*;
 public class BinarySc {
     public static int Binary(int numbers[] , int key){
         int start = 0;

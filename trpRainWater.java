@@ -1,5 +1,5 @@
 public class trpRainWater {
-    public static int trappingRainWater(int arr[]){
+    public static void trappingRainWater(int arr[]){
         int n = arr.length;
         int leftMax[] = new int[n];
         leftMax[0] = arr[0];
