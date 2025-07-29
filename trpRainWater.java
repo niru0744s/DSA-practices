@@ -17,6 +17,7 @@ public class trpRainWater {
 
         // trapped water 
         int trappedWater = 0;
+
         for(int i = 0 ; i < n ; i++){
             int waterlevel = Math.min(leftMax[i] , rightMax[i]);
             trappedWater += waterlevel - arr[i];
